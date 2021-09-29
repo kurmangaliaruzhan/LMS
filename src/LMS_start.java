@@ -230,7 +230,7 @@ public class LMS_start {
                 System.out.println(id + " " + name + " " + author + " " + genre);
             }
 
-            System.out.println("Өзгерту үшін таңдаңыз");
+            System.out.println("Өзгерту үшін таңдаңыз...");
             int id = scnDigit.nextInt();
             if(renameType.equalsIgnoreCase("name")){
                 updateSql = "update booklist set namebook=?  where id=" + id;
